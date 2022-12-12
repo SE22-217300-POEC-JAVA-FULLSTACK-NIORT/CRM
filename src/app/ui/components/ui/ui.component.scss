@@ -16,6 +16,11 @@ aside {
 
 nav {
   width: 250px;
+  transition: 500ms;
+}
+
+.close-aside {
+  width: 0px;
 }
 
 footer{
