@@ -12,7 +12,7 @@
         <ng-content select=".tr-header"></ng-content>
     </header>
 
-    <nav [ngClass]="{'close-aside': !close}">
+    <nav [ngClass]="{'close-aside': close}">
         <ng-content select=".tr-nav"></ng-content>
     </nav>
 
