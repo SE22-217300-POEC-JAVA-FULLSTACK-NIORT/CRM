@@ -1,129 +1,129 @@
 {
-    "orders": [
-      {
+  "orders": [
+    {
+      "id": 1,
+      "client": {
         "id": 1,
-        "client": {
-            "id": 1,
-            "company_name": "M2I Formation",
-            "first_name": "Julien",
-            "last_name": "Lamard",
-            "email": "lamard@mail.com",
-            "phone": "0611223344",
-            "address": "17 r Chaillot, 75116 Paris",
-            "zip_code": "75116",
-            "city": "Paris",
-            "country": "France",
-            "state": "ACTIVE"
-        },
-        "type_presta": "Formation",
-        "designation": "Angular Initiation",
-        "nb_days": 3,
-        "unit_price": 1200.0,
-        "state": "CANCELED"
+        "company_name": "M2I Formation",
+        "first_name": "Julien",
+        "last_name": "Lamard",
+        "email": "lamard@mail.com",
+        "phone": "0611223344",
+        "address": "17 r Chaillot, 75116 Paris",
+        "zip_code": "75116",
+        "city": "Paris",
+        "country": "France",
+        "state": "ACTIVE"
       },
-      {
+      "type_presta": "Formation",
+      "designation": "Angular Initiation",
+      "nb_days": 3,
+      "unit_price": 1200.0,
+      "state": "CANCELED"
+    },
+    {
+      "id": 2,
+      "client": {
+        "id": 1,
+        "company_name": "M2I Formation",
+        "first_name": "Julien",
+        "last_name": "Lamard",
+        "email": "lamard@mail.com",
+        "phone": "0611223344",
+        "address": "17 r Chaillot, 75116 Paris",
+        "zip_code": "75116",
+        "city": "Paris",
+        "country": "France",
+        "state": "ACTIVE"
+      },
+      "type_presta": "Formation",
+      "designation": "Python Initiation",
+      "nb_days": 5,
+      "unit_price": 500,
+      "state": "OPTION"
+    },
+    {
+      "id": 3,
+      "client": {
         "id": 2,
-        "client": {
-            "id": 1,
-            "company_name": "M2I Formation",
-            "first_name": "Julien",
-            "last_name": "Lamard",
-            "email": "lamard@mail.com",
-            "phone": "0611223344",
-            "address": "17 r Chaillot, 75116 Paris",
-            "zip_code": "75116",
-            "city": "Paris",
-            "country": "France",
-            "state": "ACTIVE"
-        },
-        "type_presta": "Formation",
-        "designation": "Python Initiation",
-        "nb_days": 5,
-        "unit_price": 500,
-        "state": "OPTION"
+        "company_name": "Atos",
+        "first_name": "Jean",
+        "last_name": "Minoche",
+        "email": "Minoche@mail.com",
+        "phone": "0657223344",
+        "address": "17 r emile, 75016 Paris",
+        "zip_code": "75016",
+        "city": "Paris",
+        "country": "France",
+        "state": "INACTIVE"
       },
-      {
+      "type_presta": "Coaching",
+      "designation": "Coaching angular",
+      "nb_days": 12,
+      "unit_price": 800,
+      "state": "CONFIRMED"
+    },
+    {
+      "id": 4,
+      "client": {
         "id": 3,
-        "client": {
-            "id": 2,
-            "company_name": "Atos",
-            "first_name": "Jean",
-            "last_name": "Minoche",
-            "email": "Minoche@mail.com",
-            "phone": "0657223344",
-            "address": "17 r emile, 75016 Paris",
-            "zip_code": "75016",
-            "city": "Paris",
-            "country": "France",
-            "state": "INACTIVE"
-        },
-        "type_presta": "Coaching",
-        "designation": "Coaching angular",
-        "nb_days": 12,
-        "unit_price": 800,
-        "state": "CONFIRMED"
+        "company_name": "Capgemini",
+        "first_name": "Bertrand",
+        "last_name": "Yolon",
+        "email": "yolon@mail.com",
+        "phone": "0696223344",
+        "address": "25 r jean, 75013 Paris",
+        "zip_code": "75013",
+        "city": "Paris",
+        "country": "France",
+        "state": "ACTIVE"
       },
-      {
-        "id": 4,
-        "client": {
-            "id": 3,
-            "company_name": "Capgemini",
-            "first_name": "Bertrand",
-            "last_name": "Yolon",
-            "email": "yolon@mail.com",
-            "phone": "0696223344",
-            "address": "25 r jean, 75013 Paris",
-            "zip_code": "75013",
-            "city": "Paris",
-            "country": "France",
-            "state": "ACTIVE"
-        },
-        "type_presta": "Formation",
-        "designation": "Angular avancé",
-        "nb_days": 4,
-        "unit_price": 1200.0,
-        "state": "CANCELED"
-      }
-    ],
-    "clients": [
-        {
-            "id": 1,
-            "company_name": "M2I Formation",
-            "first_name": "Julien",
-            "last_name": "Lamard",
-            "email": "lamard@mail.com",
-            "phone": "0611223344",
-            "address": "17 r Chaillot, 75116 Paris",
-            "zip_code": "75116",
-            "city": "Paris",
-            "country": "France",
-            "state": "ACTIVE"
-        },
-        {
-            "id": 2,
-            "company_name": "Atos",
-            "first_name": "Jean",
-            "last_name": "Minoche",
-            "email": "Minoche@mail.com",
-            "phone": "0657223344",
-            "address": "17 r emile, 75016 Paris",
-            "zip_code": "75016",
-            "city": "Paris",
-            "country": "France",
-            "state": "INACTIVE"
-        },
-        {
-            "id": 3,
-            "company_name": "Capgemini",
-            "first_name": "Bertrand",
-            "last_name": "Yolon",
-            "email": "yolon@mail.com",
-            "phone": "0696223344",
-            "address": "25 r jean, 75013 Paris",
-            "zip_code": "75013",
-            "city": "Paris",
-            "country": "France",
-            "state": "ACTIVE"
-        }
-    ]
+      "type_presta": "Formation",
+      "designation": "Angular avancé",
+      "nb_days": 4,
+      "unit_price": 1200.0,
+      "state": "CANCELED"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "company_name": "M2I Formation",
+      "first_name": "Julien",
+      "last_name": "Lamard",
+      "email": "lamard@mail.com",
+      "phone": "0611223344",
+      "address": "17 r Chaillot, 75116 Paris",
+      "zip_code": "75116",
+      "city": "Paris",
+      "country": "France",
+      "state": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "company_name": "Atos",
+      "first_name": "Jean",
+      "last_name": "Minoche",
+      "email": "Minoche@mail.com",
+      "phone": "0657223344",
+      "address": "17 r emile, 75016 Paris",
+      "zip_code": "75016",
+      "city": "Paris",
+      "country": "France",
+      "state": "INACTIVE"
+    },
+    {
+      "id": 3,
+      "company_name": "Capgemini",
+      "first_name": "Bertrand",
+      "last_name": "Yolon",
+      "email": "yolon@mail.com",
+      "phone": "0696223344",
+      "address": "25 r jean, 75013 Paris",
+      "zip_code": "75013",
+      "city": "Paris",
+      "country": "France",
+      "state": "ACTIVE"
+    }
+  ]
 }
