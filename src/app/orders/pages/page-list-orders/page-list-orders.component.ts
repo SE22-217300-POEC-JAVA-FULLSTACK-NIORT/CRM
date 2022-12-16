@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Order } from 'src/app/core/models/order';
 import { OrdersService } from 'src/app/core/services/orders.service';
 
 @Component({
@@ -7,9 +8,23 @@ import { OrdersService } from 'src/app/core/services/orders.service';
   styleUrls: ['./page-list-orders.component.scss'],
 })
 export class PageListOrdersComponent {
+  public collection!: Order[];
+  public headers: string[];
+
   constructor(private ordersService: OrdersService) {
+    this.headers = [
+      'Type',
+      'Déscription',
+      'Durée',
+      'Prix',
+      'total HT',
+      'total TTC',
+      'state',
+    ];
+
     this.ordersService.collection.subscribe((data) => {
-      console.log(data);
+      this.collection = data;
     });
+    console.log(this.collection);
   }
 }
