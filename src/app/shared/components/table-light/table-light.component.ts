@@ -8,5 +8,4 @@ import { Order } from 'src/app/core/models/order';
 })
 export class TableLightComponent {
   @Input() public headers!: string[];
-  @Input() public collection!: Order[];
 }

@@ -5,14 +5,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let item of collection">
-      <td>{{ item.type_presta }}</td>
-      <td>{{ item.designation }}</td>
-      <td>{{ item.nb_days }}</td>
-      <td>{{ item.unit_price }}</td>
-      <td>Total HT</td>
-      <td>Total TTC</td>
-      <td>{{ item.state }}</td>
-    </tr>
+    <ng-content></ng-content>
   </tbody>
 </table>
