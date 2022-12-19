@@ -10,7 +10,13 @@
       <td>{{ order.unit_price |currency }}</td>
       <td>{{ order.nb_days |total : order.unit_price |currency }}</td>
       <td>{{ order.nb_days |total : order.unit_price : 1.2 |currency }}</td>
-      <td>{{ order.state }}</td>
+      <td [ngClass]="{
+        'state-confirmed': 'CONFIRMED' === order.state,
+        'state-option': 'OPTION' === order.state,
+        'state-canceled': 'CANCELED' === order.state
+      }">
+        {{ order.state }}
+      </td>
     </tr>
   </app-table-light>
 </app-template-full-width>
