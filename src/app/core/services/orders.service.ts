@@ -15,4 +15,8 @@ export class OrdersService {
     this.urlApi = environment.urlApi;
     this.collection$ = this.httpClient.get<Order[]>(`${this.urlApi}/orders`);
   }
+
+  public add(order: Order): Observable<Order> {
+    return this.httpClient.post<Order>(`${this.urlApi}/orders`, order);
+  }
 }

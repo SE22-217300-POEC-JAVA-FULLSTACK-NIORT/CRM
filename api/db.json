@@ -18,7 +18,7 @@
       "type_presta": "Formation",
       "designation": "Angular Initiation",
       "nb_days": 3,
-      "unit_price": 1200.0,
+      "unit_price": 1200,
       "state": "CANCELED"
     },
     {
@@ -81,7 +81,7 @@
       "type_presta": "Formation",
       "designation": "Angular avancé",
       "nb_days": 4,
-      "unit_price": 1200.0,
+      "unit_price": 1200,
       "state": "CANCELED"
     }
   ],
